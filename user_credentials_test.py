@@ -13,7 +13,7 @@ class TestUser(unittest.TestCase):
 		'''
 		Function for creating a user account before each test
 		'''
-		self.new_user = User('George','Alusa','ndele')
+		self.new_user = User('George','Alusa','1234')
 
 	def test__init__(self):
 		'''
